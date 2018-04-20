@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B4C5391ADE02C6007D3B18 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B4C5381ADE02C6007D3B18 /* Reachability.m */; };
+		57B94DC81AC3A0FD00B81259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DC71AC3A0FD00B81259 /* main.m */; };
+		57B94DCB1AC3A0FD00B81259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DCA1AC3A0FD00B81259 /* AppDelegate.m */; };
+		57B94DD61AC3A0FD00B81259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B94DD51AC3A0FD00B81259 /* Images.xcassets */; };
+		57B94DE51AC3A0FE00B81259 /* TDPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DE41AC3A0FE00B81259 /* TDPlayerDemoTests.m */; };
+		57B94DF01AC3A16100B81259 /* TDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DEF1AC3A16100B81259 /* TDPlayerViewController.m */; };
+		57B94DFB1AC3A18D00B81259 /* TDPlayerBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DF31AC3A18D00B81259 /* TDPlayerBottomBar.m */; };
+		57B94DFC1AC3A18D00B81259 /* TDPlayerStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DF61AC3A18D00B81259 /* TDPlayerStatusView.m */; };
+		57B94DFD1AC3A18D00B81259 /* TDPlayerTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DF81AC3A18D00B81259 /* TDPlayerTopBar.m */; };
+		57B94DFE1AC3A18D00B81259 /* TDPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94DFA1AC3A18D00B81259 /* TDPlayerView.m */; };
+		57B94E401AC3AB4300B81259 /* PlayerImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57B94E3F1AC3AB4300B81259 /* PlayerImages.bundle */; };
+		57B94E431AC3ADD800B81259 /* ShowTextForTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B94E421AC3ADD800B81259 /* ShowTextForTestViewController.m */; };
+		57B9CEEE1AD37F9E0076897F /* TDPlayerLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B9CEED1AD37F9E0076897F /* TDPlayerLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B94DDF1AC3A0FE00B81259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B94DBA1AC3A0FD00B81259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B94DC11AC3A0FD00B81259;
+			remoteInfo = TDPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57B4C5371ADE02C6007D3B18 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		57B4C5381ADE02C6007D3B18 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		57B94DC21AC3A0FD00B81259 /* TDPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B94DC61AC3A0FD00B81259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B94DC71AC3A0FD00B81259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B94DC91AC3A0FD00B81259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57B94DCA1AC3A0FD00B81259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57B94DD51AC3A0FD00B81259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57B94DDE1AC3A0FE00B81259 /* TDPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B94DE31AC3A0FE00B81259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B94DE41AC3A0FE00B81259 /* TDPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDPlayerDemoTests.m; sourceTree = "<group>"; };
+		57B94DEE1AC3A16100B81259 /* TDPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayerViewController.h; sourceTree = "<group>"; };
+		57B94DEF1AC3A16100B81259 /* TDPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPlayerViewController.m; sourceTree = "<group>"; };
+		57B94DF21AC3A18D00B81259 /* TDPlayerBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayerBottomBar.h; sourceTree = "<group>"; };
+		57B94DF31AC3A18D00B81259 /* TDPlayerBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPlayerBottomBar.m; sourceTree = "<group>"; };
+		57B94DF41AC3A18D00B81259 /* TDPlayerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayerConfig.h; sourceTree = "<group>"; };
+		57B94DF51AC3A18D00B81259 /* TDPlayerStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayerStatusView.h; sourceTree = "<group>"; };
+		57B94DF61AC3A18D00B81259 /* TDPlayerStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPlayerStatusView.m; sourceTree = "<group>"; };
+		57B94DF71AC3A18D00B81259 /* TDPlayerTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayerTopBar.h; sourceTree = "<group>"; };
+		57B94DF81AC3A18D00B81259 /* TDPlayerTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPlayerTopBar.m; sourceTree = "<group>"; };
+		57B94DF91AC3A18D00B81259 /* TDPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayerView.h; sourceTree = "<group>"; };
+		57B94DFA1AC3A18D00B81259 /* TDPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPlayerView.m; sourceTree = "<group>"; };
+		57B94E3F1AC3AB4300B81259 /* PlayerImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PlayerImages.bundle; sourceTree = "<group>"; };
+		57B94E411AC3ADD800B81259 /* ShowTextForTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTextForTestViewController.h; sourceTree = "<group>"; };
+		57B94E421AC3ADD800B81259 /* ShowTextForTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTextForTestViewController.m; sourceTree = "<group>"; };
+		57B9CEEC1AD37F9E0076897F /* TDPlayerLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayerLoadingView.h; sourceTree = "<group>"; };
+		57B9CEED1AD37F9E0076897F /* TDPlayerLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPlayerLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B94DBF1AC3A0FD00B81259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B94DDB1AC3A0FE00B81259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B4C5361ADE02C6007D3B18 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				57B4C5371ADE02C6007D3B18 /* Reachability.h */,
+				57B4C5381ADE02C6007D3B18 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		57B94DB91AC3A0FD00B81259 = {
+			isa = PBXGroup;
+			children = (
+				57B94DC41AC3A0FD00B81259 /* TDPlayerDemo */,
+				57B94DC51AC3A0FD00B81259 /* Supporting Files */,
+				57B94DE11AC3A0FE00B81259 /* TDPlayerDemoTests */,
+				57B94DC31AC3A0FD00B81259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B94DC31AC3A0FD00B81259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B94DC21AC3A0FD00B81259 /* TDPlayerDemo.app */,
+				57B94DDE1AC3A0FE00B81259 /* TDPlayerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B94DC41AC3A0FD00B81259 /* TDPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				57B94DC91AC3A0FD00B81259 /* AppDelegate.h */,
+				57B94DCA1AC3A0FD00B81259 /* AppDelegate.m */,
+				57B94E411AC3ADD800B81259 /* ShowTextForTestViewController.h */,
+				57B94E421AC3ADD800B81259 /* ShowTextForTestViewController.m */,
+				57B94DEE1AC3A16100B81259 /* TDPlayerViewController.h */,
+				57B94DEF1AC3A16100B81259 /* TDPlayerViewController.m */,
+				57B4C5361ADE02C6007D3B18 /* Reachability */,
+				57B94DF11AC3A18D00B81259 /* TDPlayer */,
+			);
+			path = TDPlayerDemo;
+			sourceTree = "<group>";
+		};
+		57B94DC51AC3A0FD00B81259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B94DD51AC3A0FD00B81259 /* Images.xcassets */,
+				57B94DC61AC3A0FD00B81259 /* Info.plist */,
+				57B94DC71AC3A0FD00B81259 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = TDPlayerDemo;
+			sourceTree = "<group>";
+		};
+		57B94DE11AC3A0FE00B81259 /* TDPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B94DE41AC3A0FE00B81259 /* TDPlayerDemoTests.m */,
+				57B94DE21AC3A0FE00B81259 /* Supporting Files */,
+			);
+			path = TDPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		57B94DE21AC3A0FE00B81259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B94DE31AC3A0FE00B81259 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57B94DF11AC3A18D00B81259 /* TDPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				57B94E3F1AC3AB4300B81259 /* PlayerImages.bundle */,
+				57B94DF41AC3A18D00B81259 /* TDPlayerConfig.h */,
+				57B94DF91AC3A18D00B81259 /* TDPlayerView.h */,
+				57B94DFA1AC3A18D00B81259 /* TDPlayerView.m */,
+				57B94DF71AC3A18D00B81259 /* TDPlayerTopBar.h */,
+				57B94DF81AC3A18D00B81259 /* TDPlayerTopBar.m */,
+				57B94DF21AC3A18D00B81259 /* TDPlayerBottomBar.h */,
+				57B94DF31AC3A18D00B81259 /* TDPlayerBottomBar.m */,
+				57B94DF51AC3A18D00B81259 /* TDPlayerStatusView.h */,
+				57B94DF61AC3A18D00B81259 /* TDPlayerStatusView.m */,
+				57B9CEEC1AD37F9E0076897F /* TDPlayerLoadingView.h */,
+				57B9CEED1AD37F9E0076897F /* TDPlayerLoadingView.m */,
+			);
+			path = TDPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B94DC11AC3A0FD00B81259 /* TDPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B94DE81AC3A0FE00B81259 /* Build configuration list for PBXNativeTarget "TDPlayerDemo" */;
+			buildPhases = (
+				57B94DBE1AC3A0FD00B81259 /* Sources */,
+				57B94DBF1AC3A0FD00B81259 /* Frameworks */,
+				57B94DC01AC3A0FD00B81259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDPlayerDemo;
+			productName = TDPlayerDemo;
+			productReference = 57B94DC21AC3A0FD00B81259 /* TDPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B94DDD1AC3A0FE00B81259 /* TDPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B94DEB1AC3A0FE00B81259 /* Build configuration list for PBXNativeTarget "TDPlayerDemoTests" */;
+			buildPhases = (
+				57B94DDA1AC3A0FE00B81259 /* Sources */,
+				57B94DDB1AC3A0FE00B81259 /* Frameworks */,
+				57B94DDC1AC3A0FE00B81259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B94DE01AC3A0FE00B81259 /* PBXTargetDependency */,
+			);
+			name = TDPlayerDemoTests;
+			productName = TDPlayerDemoTests;
+			productReference = 57B94DDE1AC3A0FE00B81259 /* TDPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B94DBA1AC3A0FD00B81259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TangYanQiong;
+				TargetAttributes = {
+					57B94DC11AC3A0FD00B81259 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					57B94DDD1AC3A0FE00B81259 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 57B94DC11AC3A0FD00B81259;
+					};
+				};
+			};
+			buildConfigurationList = 57B94DBD1AC3A0FD00B81259 /* Build configuration list for PBXProject "TDPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B94DB91AC3A0FD00B81259;
+			productRefGroup = 57B94DC31AC3A0FD00B81259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B94DC11AC3A0FD00B81259 /* TDPlayerDemo */,
+				57B94DDD1AC3A0FE00B81259 /* TDPlayerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B94DC01AC3A0FD00B81259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B94E401AC3AB4300B81259 /* PlayerImages.bundle in Resources */,
+				57B94DD61AC3A0FD00B81259 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B94DDC1AC3A0FE00B81259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B94DBE1AC3A0FD00B81259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B94DCB1AC3A0FD00B81259 /* AppDelegate.m in Sources */,
+				57B94DFC1AC3A18D00B81259 /* TDPlayerStatusView.m in Sources */,
+				57B94DFB1AC3A18D00B81259 /* TDPlayerBottomBar.m in Sources */,
+				57B94E431AC3ADD800B81259 /* ShowTextForTestViewController.m in Sources */,
+				57B4C5391ADE02C6007D3B18 /* Reachability.m in Sources */,
+				57B94DF01AC3A16100B81259 /* TDPlayerViewController.m in Sources */,
+				57B9CEEE1AD37F9E0076897F /* TDPlayerLoadingView.m in Sources */,
+				57B94DFE1AC3A18D00B81259 /* TDPlayerView.m in Sources */,
+				57B94DFD1AC3A18D00B81259 /* TDPlayerTopBar.m in Sources */,
+				57B94DC81AC3A0FD00B81259 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B94DDA1AC3A0FE00B81259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B94DE51AC3A0FE00B81259 /* TDPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B94DE01AC3A0FE00B81259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B94DC11AC3A0FD00B81259 /* TDPlayerDemo */;
+			targetProxy = 57B94DDF1AC3A0FE00B81259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57B94DE61AC3A0FE00B81259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57B94DE71AC3A0FE00B81259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B94DE91AC3A0FE00B81259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TDPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57B94DEA1AC3A0FE00B81259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TDPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57B94DEC1AC3A0FE00B81259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDPlayerDemo.app/TDPlayerDemo";
+			};
+			name = Debug;
+		};
+		57B94DED1AC3A0FE00B81259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDPlayerDemo.app/TDPlayerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B94DBD1AC3A0FD00B81259 /* Build configuration list for PBXProject "TDPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B94DE61AC3A0FE00B81259 /* Debug */,
+				57B94DE71AC3A0FE00B81259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B94DE81AC3A0FE00B81259 /* Build configuration list for PBXNativeTarget "TDPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B94DE91AC3A0FE00B81259 /* Debug */,
+				57B94DEA1AC3A0FE00B81259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B94DEB1AC3A0FE00B81259 /* Build configuration list for PBXNativeTarget "TDPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B94DEC1AC3A0FE00B81259 /* Debug */,
+				57B94DED1AC3A0FE00B81259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B94DBA1AC3A0FD00B81259 /* Project object */;
+}

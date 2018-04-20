@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "bec34ca0-1d6e-994f-ba5d-9f6207ae9837",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "bec34ca0-1d6e-994f-ba5d-9f6207ae9837" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "bec34ca0-1d6e-994f-ba5d-9f6207ae9837" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "294CE4C6-98C4-44DD-9E53-D9EE27242888",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "bec34ca0-1d6e-994f-ba5d-9f6207ae9837" : "%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E9%83%A8\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TDPlayerDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "standard\/modules\/STCPlayer\/ios\/TDPlayerDemo\/TDPlayerDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.jetlive.net:8443\/svn\/nn_mobile_app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bec34ca0-1d6e-994f-ba5d-9f6207ae9837"
+    }
+  ]
+}
