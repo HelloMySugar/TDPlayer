@@ -40,7 +40,7 @@
 @implementation TDPlayerBottomBar
 @synthesize delegate;
 
-- (id)initWithFrame:(CGRect)frame 
+- (id)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame])
     {
@@ -80,13 +80,13 @@
             buttonY = button.frame.origin.x+button.frame.size.width+5;
             
             /* 长按快进
-            if (button != playOrPauseBtn) {
-                UILongPressGestureRecognizer *longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
-                [longPressRecognizer setMinimumPressDuration:1.f];
-                [longPressRecognizer setDelegate:self];
-                [button addGestureRecognizer:longPressRecognizer];
-            }
-            */
+             if (button != playOrPauseBtn) {
+             UILongPressGestureRecognizer *longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
+             [longPressRecognizer setMinimumPressDuration:1.f];
+             [longPressRecognizer setDelegate:self];
+             [button addGestureRecognizer:longPressRecognizer];
+             }
+             */
         }
         
         currentTimeLabel = [[UILabel alloc] initWithFrame:CGRectMake(nextBtn.frame.origin.x+nextBtn.frame.size.width, 0, 60, self.frame.size.height)];
@@ -228,69 +228,69 @@
 }
 
 /*
-#pragma mark - Forward And Back Methods -
-
-- (void)forwardOrRewindVideo:(UIButton *)button
-{
-    button.userInteractionEnabled = NO;
-    
-    if (self.delegate && [self.delegate respondsToSelector:@selector(codePauseVideo)])
-        [self.delegate codePauseVideo];
-    
-    CGFloat theTime = currentPlayTime + ((button == nextBtn) ? FORWARD_OR_BACK_SECOND : -FORWARD_OR_BACK_SECOND);
-    if (self.delegate && [self.delegate respondsToSelector:@selector(setVideoPlayTimeBy:)])
-        [self.delegate setVideoPlayTimeBy:theTime];
-    
-    button.userInteractionEnabled = YES;
-}
-
-- (void)handleLongPress:(UILongPressGestureRecognizer *)longPressRecognizer
-{
-    if (longPressRecognizer.state == UIGestureRecognizerStateBegan)
-    {
-        if (self.delegate && [self.delegate respondsToSelector:@selector(codePauseVideo)])
-            [self.delegate codePauseVideo];
-        if (self.delegate && [self.delegate respondsToSelector:@selector(startOrStopTheHiddenTimerBy:)])
-            [self.delegate startOrStopTheHiddenTimerBy:NO];
-        
-        seekToTime = currentPlayTime;
-        
-        if ([longPressTimer isValid]) {
-            [longPressTimer invalidate];
-            longPressTimer = nil;
-        }
-        
-        longPressTimer = [NSTimer scheduledTimerWithTimeInterval:0.1f
-                                                          target:self
-                                                        selector:@selector(longPress:)
-                                                        userInfo:longPressRecognizer
-                                                         repeats:YES];
-    }else if (longPressRecognizer.state == UIGestureRecognizerStateEnded)
-    {
-        if ([longPressTimer isValid]) {
-            [longPressTimer invalidate];
-            longPressTimer = nil;
-        }
-        
-        if (self.delegate && [self.delegate respondsToSelector:@selector(setVideoPlayTimeBy:)])
-            [self.delegate setVideoPlayTimeBy:seekToTime];
-        if (self.delegate && [self.delegate respondsToSelector:@selector(startOrStopTheHiddenTimerBy:)])
-            [self.delegate startOrStopTheHiddenTimerBy:YES];
-    }
-}
-
-- (void)longPress:(NSTimer *)timer
-{
-    UILongPressGestureRecognizer *longPressRecognize = [longPressTimer userInfo];
-    if ([longPressRecognize.view isEqual:nextBtn])
-        seekToTime += FORWARD_OR_BACK_SECOND;
-    else if ([longPressRecognize.view isEqual:previousBtn])
-        seekToTime -= FORWARD_OR_BACK_SECOND;
-    
-    currentTimeLabel.text = [self convertTime:seekToTime];
-    [videoSlider setValue:seekToTime/totalTime animated:YES];
-}
-*/
+ #pragma mark - Forward And Back Methods -
+ 
+ - (void)forwardOrRewindVideo:(UIButton *)button
+ {
+ button.userInteractionEnabled = NO;
+ 
+ if (self.delegate && [self.delegate respondsToSelector:@selector(codePauseVideo)])
+ [self.delegate codePauseVideo];
+ 
+ CGFloat theTime = currentPlayTime + ((button == nextBtn) ? FORWARD_OR_BACK_SECOND : -FORWARD_OR_BACK_SECOND);
+ if (self.delegate && [self.delegate respondsToSelector:@selector(setVideoPlayTimeBy:)])
+ [self.delegate setVideoPlayTimeBy:theTime];
+ 
+ button.userInteractionEnabled = YES;
+ }
+ 
+ - (void)handleLongPress:(UILongPressGestureRecognizer *)longPressRecognizer
+ {
+ if (longPressRecognizer.state == UIGestureRecognizerStateBegan)
+ {
+ if (self.delegate && [self.delegate respondsToSelector:@selector(codePauseVideo)])
+ [self.delegate codePauseVideo];
+ if (self.delegate && [self.delegate respondsToSelector:@selector(startOrStopTheHiddenTimerBy:)])
+ [self.delegate startOrStopTheHiddenTimerBy:NO];
+ 
+ seekToTime = currentPlayTime;
+ 
+ if ([longPressTimer isValid]) {
+ [longPressTimer invalidate];
+ longPressTimer = nil;
+ }
+ 
+ longPressTimer = [NSTimer scheduledTimerWithTimeInterval:0.1f
+ target:self
+ selector:@selector(longPress:)
+ userInfo:longPressRecognizer
+ repeats:YES];
+ }else if (longPressRecognizer.state == UIGestureRecognizerStateEnded)
+ {
+ if ([longPressTimer isValid]) {
+ [longPressTimer invalidate];
+ longPressTimer = nil;
+ }
+ 
+ if (self.delegate && [self.delegate respondsToSelector:@selector(setVideoPlayTimeBy:)])
+ [self.delegate setVideoPlayTimeBy:seekToTime];
+ if (self.delegate && [self.delegate respondsToSelector:@selector(startOrStopTheHiddenTimerBy:)])
+ [self.delegate startOrStopTheHiddenTimerBy:YES];
+ }
+ }
+ 
+ - (void)longPress:(NSTimer *)timer
+ {
+ UILongPressGestureRecognizer *longPressRecognize = [longPressTimer userInfo];
+ if ([longPressRecognize.view isEqual:nextBtn])
+ seekToTime += FORWARD_OR_BACK_SECOND;
+ else if ([longPressRecognize.view isEqual:previousBtn])
+ seekToTime -= FORWARD_OR_BACK_SECOND;
+ 
+ currentTimeLabel.text = [self convertTime:seekToTime];
+ [videoSlider setValue:seekToTime/totalTime animated:YES];
+ }
+ */
 
 #pragma mark - Video Progress Slider Methods -
 
@@ -398,7 +398,7 @@
 
 - (void)dealloc
 {
-    [[MPMusicPlayerController applicationMusicPlayer] endGeneratingPlaybackNotifications];
+    //    [[MPMusicPlayerController applicationMusicPlayer] endGeneratingPlaybackNotifications];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMusicPlayerControllerVolumeDidChangeNotification object:nil];
 }
 
